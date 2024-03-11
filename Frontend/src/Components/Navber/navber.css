@@ -1,0 +1,72 @@
+/* Navber section  */
+.navber {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: .3rem 2rem;
+}
+
+
+/* Navber logo section  */
+.navber .logo .name {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+/* Navber search section  */
+.navber .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: rgb(237, 240, 243);
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+
+input {
+    padding: .3rem;
+    width: 20rem;
+    border-radius: 5px;
+    outline: none;
+    /* border: 1px solid black; */
+    border: none;
+    background: #fff;
+}
+
+/* Navber profile section  */
+.navber .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile .user-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* Profile image  */
+.profile img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+svg {
+    color: #000000;
+    /* transform: translateY(4px); */
+    font-size: 1.8rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+svg:hover {
+    transform: scale(1.1);
+    transition: all .5s;
+}
