@@ -1,0 +1,14 @@
+.advertisment {
+    height: 28vh;
+    width: 100%;
+    background: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.adItem-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

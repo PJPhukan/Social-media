@@ -1,0 +1,35 @@
+.aditem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.aditem img {
+    width: 50%;
+    height: 4rem;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+
+.box-ad {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.name {
+    font-weight: 600;
+    color: rgba(0, 0, 0, .7)
+}
+
+.promotions {
+    color: #00000066;
+    cursor: pointer;
+    font-size: .8rem;
+    width: 100%;
+}

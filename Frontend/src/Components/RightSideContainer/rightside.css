@@ -1,0 +1,7 @@
+.rightbar {
+  width: 27%;
+  flex: 1.3;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}

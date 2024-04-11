@@ -1,0 +1,54 @@
+.suggested-user {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: .2rem .7rem;
+    border-radius: 15px;
+    background: aliceblue;
+}
+
+.box {
+    display: flex;
+    gap: .5rem;
+}
+
+.user-img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name-box {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    gap: .3rem;
+}
+
+.user-name {
+    font-weight: 600;
+    color: rgba(0, 0, 0, .7);
+    font-size: 1rem;
+
+}
+
+.user-text {
+    color: #00000066;
+    font-size: .9rem;
+    cursor: pointer;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+
+.suggested-user .icon-box svg {
+    transform: scale(1.1) translateY(2px);
+    background: rgb(179, 181, 182);
+    color: black;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    padding: 5px;
+}
