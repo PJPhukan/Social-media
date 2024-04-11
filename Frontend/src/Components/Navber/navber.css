@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: .3rem 2rem;
 }
 
@@ -27,7 +27,7 @@
     border-radius: 5px;
 }
 
-input {
+.search input {
     padding: .3rem;
     width: 20rem;
     border-radius: 5px;
@@ -58,9 +58,8 @@ input {
     object-fit: cover;
 }
 
-svg {
+.navber svg {
     color: #000000;
-    /* transform: translateY(4px); */
     font-size: 1.8rem;
     font-weight: 800;
     cursor: pointer;
