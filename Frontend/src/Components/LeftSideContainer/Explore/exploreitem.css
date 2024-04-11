@@ -1,0 +1,18 @@
+.expl-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    gap: .2rem;
+}
+
+.img-box {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.img-box img {
+    height: 7rem;
+    width: 6rem;
+    border-radius: 0;
+}

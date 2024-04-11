@@ -1,0 +1,29 @@
+.notification-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    background: aliceblue;
+}
+
+.img-name {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-wrap: wrap;
+    width: 80%;
+    margin-top: .1rem;
+}
+
+.text {
+    margin-left: .5rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+}

@@ -1,0 +1,33 @@
+ .notification {
+     height: 55vh;
+     width: 100%;
+     background: #fff;
+     border-radius: 1rem;
+     padding: 1rem;
+     overflow-y: auto;
+ }
+
+ .notification .header {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+
+ }
+
+ .heading {
+     font-weight: 600;
+     color: rgba(0, 0, 0, .7)
+ }
+
+  .see-all {
+     color: #00000066;
+     cursor: pointer;
+ }
+
+
+ .notification .notification-item-box {
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+     margin-top: 1rem;
+ }

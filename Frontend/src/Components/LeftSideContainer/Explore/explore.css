@@ -1,0 +1,32 @@
+ .explore {
+     height: 55vh;
+     width: 100%;
+     background: #fff;
+     border-radius: 1rem;
+     padding: 1rem;
+     overflow-y: auto;
+ }
+
+ .explore .header {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+
+ }
+
+ .explore .heading {
+     font-weight: 600;
+     color: rgba(0, 0, 0, .7)
+ }
+
+ .explore .see-all {
+     color: #00000066;
+     cursor: pointer;
+ }
+
+ .explore-item-box {
+     margin-top: 1rem;
+     display: flex;
+     flex-direction: column;
+     gap: .7rem;
+ }
