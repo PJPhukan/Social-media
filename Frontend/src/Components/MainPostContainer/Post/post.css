@@ -1,0 +1,77 @@
+.post {
+    height: 12rem;
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.input-box {
+    display: flex;
+    justify-content: start;
+    gap: .5rem;
+    align-items: center;
+}
+
+.input-box input[type=text] {
+    padding: .5rem;
+    width: 100%;
+    font-size: 1.3rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background: rgb(240, 241, 241);
+    text-wrap: wrap;
+
+}
+
+.icon-box {
+    margin-left: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .7rem;
+}
+
+.selector input[type=file] {
+    display: none;
+}
+
+
+.selector {
+    cursor: pointer;
+}
+
+.selectEmoji {
+    cursor: pointer;
+    width: 3.4rem;
+}
+
+
+
+.icon-box svg {
+    background: white;
+    font-size: 2.6rem;
+    transform: scale(1);
+}
+
+.post .select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select .postBtn {
+    padding: .2rem 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: .5rem;
+}
