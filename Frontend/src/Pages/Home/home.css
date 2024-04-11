@@ -1,0 +1,14 @@
+.home {
+    background: aliceblue;
+    height: 100vh;
+}
+
+.componet-container {
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 1rem;
+}
